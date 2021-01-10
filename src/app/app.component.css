@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+
+.container{
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    color: #EEEEEE;
+    text-shadow: rgba(22,22,22,0.1);
+}
+
+#title{
+    font-size: 10vw;
+}
+
+body{
+    background-color: #232323;
+}
+
+#main-image{
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+    animation: rotate 3s infinite linear;
+}
+
+.box{
+    color: blue;
+    height: 100px;
+    width: 100px;
+    background-color:  blue ;
+}
+
+@keyframes rotate {
+    to {
+      transform: rotate(360deg);
+    }
+}
